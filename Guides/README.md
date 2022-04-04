@@ -1,9 +1,9 @@
 # Marco Userbot Hosting/Deploy Guides
 
-## [Self-Hosting-Guide](https://github.com/hackelite01/Marco-WA/Guides/Self-Hosting-Guide.md)
-## [Heroku-Deploy-Guide](https://github.com/hackelite01/Marco-WA/Guides/Heroku-Deploy-Guide.md) 
-## [Mongo-Atlas-Guide](https://github.com/hackelite01/Marco-WA/Guides/Mongo-Atlas-Guide.md)
-## [ChatBot_Url_Guide](https://github.com/hackelite01/Marco-WA/Guides/Chatbot_Url_Guide.md)
+## [Self-Hosting-Guide](https://github.com/hackelite01/Marco-WA/blob/main/Guides/Self-Hosting/Self-Hosting-Guide.md)
+## [Heroku-Deploy-Guide](https://github.com/hackelite01/Marco-WA/blob/main/Guides/Heroku/Heroku-Deploy-Guide.md) 
+## [Mongo-Atlas-Guide](https://github.com/hackelite01/Marco-WA/blob/main/Guides/Mongo/Mongo-Atlas-Guide.md)
+## [ChatBot_Url_Guide](https://github.com/hackelite01/Marco-WA/blob/main/Guides/ChatBot/Chatbot_Url_Guide.md)
 
 ##  Contribution
 
