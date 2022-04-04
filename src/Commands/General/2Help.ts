@@ -36,12 +36,17 @@ export default class Command extends BaseCommand {
                 }
             }
             let text = `
-╭─「(づ￣ 3￣)づ」
-│⋊ ᴜꜱᴇʀ: *${M.sender.username}*
-│⋊ ɴᴀᴍᴇ: ᖇᎥᑎ
-│⋊ ᴘʀᴇꜰɪx: ${this.client.config.prefix}
-│⋊ ᴏᴡɴᴇʀ: <${this.client.config.prefix}mod>
-╰────────────┈平和                            \n\n`
+✪ 𝙼𝚊𝚛𝚌𝚘 𝚄𝚜𝚎𝚛𝚋𝚘𝚝 𝙾𝚗 𝙵𝚒𝚛𝚎!! ✪
+
+ ╭─⊸⌊𝙾𝚆𝙽𝙴𝚁⌉ ➢ *${M.sender.username}*
+
+├─⊸⌊𝚄𝚂𝙴𝚁𝙱𝙾𝚃⌉ ➢ 𝙼𝙰𝚁𝙲𝙾
+
+├─⊸⌊𝙳𝙴𝚅𝙻𝙾𝙿𝙴𝚁⌉ ➢ 𝙼𝙰𝚈𝙰𝙽𝙺 𝚁𝙰𝙹𝙿𝚄𝚃
+
+├─⊸⌊𝙿𝚁𝙴𝙵𝙸𝚇⌉ ➢ ${this.client.config.prefix}
+
+╰─⊸⌊𝙼𝙾𝙳⌉ ➢ <${this.client.config.prefix}mod>                            \n\n`
             const keys = Object.keys(categories)
             for (const key of keys)
                 text += `${this.emojis[keys.indexOf(key)]} *${this.client.util.capitalize(key)}* ${this.emojis[keys.indexOf(key)]}\n\n• \`\`\`${categories[
@@ -52,10 +57,10 @@ export default class Command extends BaseCommand {
             return void this.client.sendMessage(M.from, { url: marco }, MessageType.video, {quoted:M.WAMessage,
             mimetype: Mimetype.gif,
             caption: `${text}
- ──❅┈[ ᖇᎥᑎ ᗷᗝ丅 ]┈❅───
+ ──❅┈[ 𝙼𝚊𝚛𝚌𝚘 𝚄𝚜𝚎𝚛𝚋𝚘𝚝]┈❅───
 ┌────────────┈❅
-│   🧨 Marco
-│   ©  Developed by Mayank Rajput (hackelite01)
+│   🧨 𝙼𝚊𝚛𝚌𝚘
+│   ©  𝙳𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚍 𝚋𝚢 𝙼𝚊𝚢𝚊𝚗𝚔 𝚁𝚊𝚓𝚙𝚞𝚝 | 𝚑𝚊𝚌𝚔𝚎𝚕𝚒𝚝𝚎01
 └────────────┈⁂
 ❅┈[𝐇𝐚𝐯𝐞 𝐆𝐫𝐞𝐚𝐭 𝐃𝐚𝐲]┈❅
 🎗 *Note: Use ${this.client.config.prefix}help <command_name> to view the command info*` }
