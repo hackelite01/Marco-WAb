@@ -13,7 +13,7 @@ THIS IS MODULAR SUPER FAST USERBOT FOR WHATSAPP.
 ### Deploy/Hosting Guide
 
 -   Section Moved to
-    [Guides](https://github.com/hackelite01/Marco-WA/Guides/README.md)
+    [Guides](https://github.com/hackelite01/Marco-WA/tree/main/Guides)
 
     Button : If you are deploying normally (RECOMMENDED)
 
