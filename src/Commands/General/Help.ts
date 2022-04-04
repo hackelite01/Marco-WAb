@@ -37,13 +37,16 @@ export default class Command extends BaseCommand {
                 }
             }
             let text = `
-            🤍 Greet... 🤍
-            ╭─「(づ￣ 3￣)づ」
-            │⋊ ᴜꜱᴇʀ: *${M.sender.username}*
-            │⋊ ɴᴀᴍᴇ: ᖇᎥᑎ
-            │⋊ ᴘʀᴇꜰɪx: ${this.client.config.prefix}
-            │⋊ ᴏᴡɴᴇʀ: <${this.client.config.prefix}mod>
-            ╰────────────┈平和                            \n\n`
+            ✪ 𝙼𝚊𝚛𝚌𝚘 𝚄𝚜𝚎𝚛𝚋𝚘𝚝 𝙾𝚗 𝙵𝚒𝚛𝚎!! ✪
+            ╭─⊸⌊𝙾𝚆𝙽𝙴𝚁⌉ ➢ *${M.sender.username}*
+
+├─⊸⌊𝚄𝚂𝙴𝚁𝙱𝙾𝚃⌉ ➢ 𝙼𝙰𝚁𝙲𝙾
+
+├─⊸⌊𝙳𝙴𝚅𝙻𝙾𝙿𝙴𝚁⌉ ➢ 𝙼𝙰𝚈𝙰𝙽𝙺 𝚁𝙰𝙹𝙿𝚄𝚃
+
+├─⊸⌊𝙿𝚁𝙴𝙵𝙸𝚇⌉ ➢ ${this.client.config.prefix}
+
+╰─⊸⌊𝙼𝙾𝙳⌉ ➢ <${this.client.config.prefix}mod>                            \n\n`
     //         const keys = Object.keys(categories)
     //         for (const key of keys)
     // // emojis = ['🚀', '🌀', '🎵', '🧿', '⚖️', '🚫','👑', '✨', '📚']
@@ -199,13 +202,13 @@ const weeb = [
 
 ]
 const txt = '\n' +
-    ' 🤍 Helper Module 🤍\n' +
+    ' დ Helper Module დ\n' +
     '╭─「(づ￣ 3￣)づ」\n' +
-    `│⋊ ᴜꜱᴇʀ: *${M.sender.username}*\n` +
-    '│⋊ ɴᴀᴍᴇ:. ᖇᎥᑎ\n' +
-    '│⋊ ᴘʀᴇꜰɪx: #\n' +
-    '│⋊ ᴏᴡɴᴇʀ: <#mod>\n' +
-    '╰────────────┈平和                            \n' +
+    `│ 𝙱𝚘𝚝 𝙾𝚠𝚗𝚎𝚛: *${M.sender.username}*\n` +
+    '│ 𝚄𝚜𝚎𝚛𝚋𝚘𝚝: . 𝙼𝙰𝚁𝙲𝙾\n' +
+    '│ 𝙿𝚛𝚎𝚏𝚒𝚡: #\n' +
+    '│ 𝙼𝚘𝚍: <#mod>\n' +
+    '╰────────────┈-`ღ´-                         \n' +
     '\n' +
     '🚀 *Fun*🚀\n' +
     '\n' +
@@ -213,7 +216,7 @@ const txt = '\n' +
     '\n' +
     '🌀 *General*🌀\n' +
     '\n' +
-    '• ```admins, everyone, help, mods, profile, rank, xp, invitelink, delete```\n' +
+    '• ```admins, everyone, help, mods, profile, rank, xp, tts, invitelink, delete```\n' +
     '\n' +
     '🎵 *Media*🎵\n' +
     '\n' +
@@ -244,10 +247,10 @@ const txt = '\n' +
     '• ```calculator, covid, define, elements, github, urbandictionary, weather```\n' +
     '\n' +
     ' \n' +
-    ' ──❅┈[ Credits ᗷᗝ丅 ]┈❅───\n' +
+    ' ──❅┈[ 𝙲𝚛𝚎𝚍𝚒𝚝𝚜 𝙱𝚘𝚝 ]┈❅───\n' +
     '┌────────────┈❅\n' +
-    '│   🧨 ᖇᎥᑎ\n'  +
-    '│   ©️ Mayank Rajput\n' +
+    '│   🧨 𝙼𝙰𝚁𝙲𝙾\n'  +
+    '│   ©️ 𝙼𝚊𝚢𝚊𝚗𝚔 𝚁𝚊𝚓𝚙𝚞𝚝\n' +
     '└────────────┈⁂\n' +
     '❅┈[𝐇𝐚𝐯𝐞 𝐆𝐫𝐞𝐚𝐭 𝐃𝐚𝐲]┈❅\n'             +
     '🚀 *Note: Use #help <command_name> to view the command info*'
@@ -278,10 +281,10 @@ this.client.sendMessage(M.from,button,MessageType.listMessage)
                     //             return void this.client.sendMessage(M.from, { url: marco }, MessageType.video, {quoted:M.WAMessage,
 //             mimetype: Mimetype.gif,
 //             caption: `${text}
-//  ──❅┈[ ᖇᎥᑎ ᗷᗝ丅 ]┈❅───
+//  ──❅┈[ 𝙼𝚊𝚛𝚌𝚘 𝚄𝚜𝚎𝚛𝚋𝚘𝚝 ]┈❅───
 // ┌────────────┈❅
-// │   🧨 ᖇᎥᑎ
-// │   ©️ Synthesized by Marco Bot | hackelite01
+// │   🧨 𝙼𝚊𝚛𝚌𝚘
+// │   ©️ 𝚂𝚢𝚗𝚝𝚑𝚎𝚜𝚒𝚣𝚎𝚍 𝚋𝚢 𝙼𝚊𝚢𝚊𝚗𝚔 𝚁𝚊𝚓𝚙𝚞𝚝 | 𝚑𝚊𝚌𝚔𝚎𝚕𝚒𝚝𝚎01https://fontboard.page.link/share
 // └────────────┈⁂
 // ❅┈[𝐇𝐚𝐯𝐞 𝐆𝐫𝐞𝐚𝐭 𝐃𝐚𝐲]┈❅
 // 🎗 *Note: Use ${this.client.config.prefix}help <command_name> to view the command info*` }
