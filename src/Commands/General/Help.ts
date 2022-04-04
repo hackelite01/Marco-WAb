@@ -143,6 +143,7 @@ const weeb = [
        {title: 'rank', rowId:"rowid1"},
        {title: 'xp', rowId:"rowid2"},
        {title: 'invitelink', rowId:"rowid2"},
+       {title: 'tts', rowId:"rowid2"},
        {title: 'delete', rowId:"rowid2"}
     ]
     const media = [
