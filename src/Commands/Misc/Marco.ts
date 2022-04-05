@@ -17,7 +17,7 @@ export default class Command extends BaseCommand {
 
     run = async (M: ISimplifiedMessage): Promise<void> => {
         const n = [
-            './assets/Marco/marco-git.mp4'
+            './assets/Marco/marco-git.gif'
         ]
         let marco = n[Math.floor(Math.random() * n.length)]
         return void this.client.sendMessage(M.from, { url: marco }, MessageType.video, {quoted:M.WAMessage,
