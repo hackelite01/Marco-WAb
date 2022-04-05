@@ -2,11 +2,18 @@
 
 THIS IS MODULAR SUPER FAST USERBOT FOR WHATSAPP.
 
-[![CodeFactor](https://www.codefactor.io/repository/github/hackelite01/Marco-WA/badge)](https://www.codefactor.io/repository/github/hackelite01/Marco-WA) [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/) [![NodeJs](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/en/)
+[![CodeFactor](https://www.codefactor.io/repository/github/hackelite01/Marco-WA/badge)](https://www.codefactor.io/repository/github/hackelite01/Marco-WA) 
+[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/) [![NodeJs](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/en/)
 
-<a href="https://github.com/hackelite01"><img title="Made in INDIA" src="https://im.shield.io/badge/MADE%20IN-INDIA-SCRIPT?colorA=%23ff81000&colorB=?23017e40%colorC=%23ff0000&style=for-the-badge"/></a>
-<a href="https://github.com/hackelite01"><img title="Version" src="https://im.shield.io/badge/Version-1"/></a>
-<a href="https://github.com/hackelite01"><img title="Maintainence" src="https://im.shield.io/badge/Maintained%3F-Yes-green.svg"/></a>
+<p align="center">
+
+<a href="https://github.com/hackelite01"><img title="Made in INDIA" src="https://img.shields.io/badge/MADE%20IN-INDIA-SCRIPT?colorA=%23ff8100&colorB=%23017e40&colorC=%23ff0000&style=for-the-badge"></a>
+
+</p>
+
+<a href="https://github.com/hackelite01"><img title="Maintainence" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg"></a>
+
+<a href="https://t.me/hackelite01"><img title="Version" src="https://img.shields.io/badge/Version-3.1.1-green.svg?style=flat-square"></a>
 
 ## The Easy Way to deploy the bot
 
