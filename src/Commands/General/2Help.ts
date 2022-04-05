@@ -24,7 +24,7 @@ export default class Command extends BaseCommand {
         let marco = n[Math.floor(Math.random() * n.length)]
         if (!parsedArgs.joined) {
             const commands = this.handler.commands.keys()
-            const categories: { [key: stmarcog]: ICommand[] } = {}
+            const categories: { [key: string]: ICommand[] } = {}
             for (const command of commands) {
                 const info = this.handler.commands.get(command)
                 if (!command) continue
@@ -78,7 +78,7 @@ export default class Command extends BaseCommand {
                     ? `\n♦️ *Aliases:* ${command.config.aliases.map(this.client.util.capitalize).join(', ')}`
                     : ''
             }\n🎐 *Group Only:* ${this.client.util.capitalize(
-                JSON.stmarcogify(!command.config.dm ?? true)
+                JSON.stringify(!command.config.dm ?? true)
             )}\n💎 *Usage:* ${command.config?.usage || ''}\n\n📒 *Description:* ${command.config?.description || ''}`
         )
     }
