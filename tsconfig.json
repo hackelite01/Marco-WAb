@@ -5,7 +5,7 @@
     "lib": [
       "ESNext"
     ],                                   
-    "outDir": "./dist",                    
+    "outDir": "./src",                    
     "strict": true,                                
     "esModuleInterop": true,                        
     "skipLibCheck": true,                          
