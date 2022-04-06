@@ -2,10 +2,10 @@
     "name": "marco",
     "version": "3.0.0",
     "description": "A WhatsApp Bot With Rich Modular Features.",
-    "main": "dist/void.js",
+    "main": "src/void.js",
     "scripts": {
         "build": "tsc -p .",
-        "start": "node dist/void.js",
+        "start": "node src/void.js",
         "lint": "eslint \"src/**/*.ts\"",
         "prettier-format": "prettier --config .prettierrc \"src/**/*.ts\" --write",
         "postinstall": "yarn run build"
@@ -18,7 +18,7 @@
         "bot",
         "typescript",
         "whatsapp",
-        "chitoge"
+        "marco"
     ],
     "author": "Created by Mayank Rajput(hackelite01)",
     "license": "GPL-3.0",
