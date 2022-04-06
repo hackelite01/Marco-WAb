@@ -18,7 +18,7 @@ export default class Command extends BaseCommand {
 
     run = async (M: ISimplifiedMessage): Promise<void> => {
         if (!M.urls.length) return void M.reply('Link?')
-        const url = M.urls.find((url) => url.includes('chat.whatsapp.com'))
+        const url = M.urls.find((url) => url.includes('https://chat.whatsapp.com/'))
         if (!url) return void M.reply('No WhatsApp Invite URLs found in your message')
         if (this.client.config.mods?.includes(M.sender.jid)) {
             const groups = this.client.chats
