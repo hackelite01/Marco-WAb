@@ -2,7 +2,7 @@
     "name": "marco",
     "version": "3.0.0",
     "description": "A WhatsApp Bot With Rich Modular Features.",
-    "main": "src/void.js",
+    "main": "dist/void.js",
     "scripts": {
         "build": "tsc -p .",
         "start": "node dist/void.js",
@@ -81,7 +81,7 @@
         "moment": "^2.29.1",
         "mongoose": "^5.12.12",
         "mywaifulist-scraper": "^0.0.1",
-        "node": "^12.11.1",
+
         "node-cron": "^3.0.0",
         "node-fetch": "^3.1.1",
         "node-periodic-table": "^0.0.6",
