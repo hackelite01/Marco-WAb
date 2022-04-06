@@ -15,7 +15,7 @@
     "website": "https://github.com/hackelite01/Marco-WA#readme",
     "repository": "https://github.com/hackelite01/Marco-WA.git",
     "logo": "https://telegra.ph/file/f4d54ef36d00de6c21c9b.jpg",
-    "success_url": "/",
+    "success_url": "https://github.com/hackelite01/Marco-WA",
     "env": {
         "PREFIX": {
             "description": "Prefix of your bot"
