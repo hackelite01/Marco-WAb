@@ -5,7 +5,7 @@
     "main": "src/void.js",
     "scripts": {
         "build": "tsc -p .",
-        "start": "node src/void.js",
+        "start": "node dist/void.js",
         "lint": "eslint \"src/**/*.ts\"",
         "prettier-format": "prettier --config .prettierrc \"src/**/*.ts\" --write",
         "postinstall": "yarn run build"
