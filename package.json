@@ -2,10 +2,10 @@
     "name": "marco",
     "version": "3.0.0",
     "description": "A WhatsApp Bot With Rich Modular Features.",
-    "main": "src/void.js",
+    "main": "dist/marco.js",
     "scripts": {
         "build": "tsc -p .",
-        "start": "node src/void.js",
+        "start": "node dist/void.js",
         "lint": "eslint \"src/**/*.ts\"",
         "prettier-format": "prettier --config .prettierrc \"src/**/*.ts\" --write",
         "postinstall": "yarn run build"
