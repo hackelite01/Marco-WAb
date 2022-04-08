@@ -10,6 +10,11 @@
         "prettier-format": "prettier --config .prettierrc \"src/**/*.ts\" --write",
         "postinstall": "yarn run build"
     },
+    "engine": {
+        "node": "16.x",
+        "npm": "6.x",
+        "yarn": "1.22.18"
+        },
     "repository": {
         "type": "git",
         "url": "git+https://github.com/hackelite01/Marco-WA"
